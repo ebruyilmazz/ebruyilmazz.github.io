@@ -1,0 +1,286 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+#kitap{
+    color: gray;
+    text-align: center;
+}
+
+.slider{
+    position:relative;
+    width:500px;
+    height:400px;
+    border:1px solid #ccc;
+    margin:auto;
+    overflow: hidden;
+}
+.slider-content{
+    position:absolute;
+    width:500%;
+    left:0;
+    animation:slide 20s infinite;
+}
+.slider-content:hover{
+    animation-play-state:paused;
+}
+.slider-item{
+    width:20%;
+    float:left;
+}
+@keyframes slide {
+    0%{
+        transform: translateX(0px);
+    }
+    10%{
+        transform: translateX(-500px);
+    }
+    20%{
+        transform: translateX(-500px);
+    }
+    30%{
+        transform: translateX(-1000px);
+    }
+    40%{
+        transform: translateX(-1500px);
+    }
+    50%{
+        transform: translateX(-1500px);
+    }
+    60%{
+        transform: translateX(-1500px);
+    }
+    70%{
+        transform: translateX(-2000px);
+    }
+    80%{
+        transform: translateX(-2000px);
+    }
+    90%{
+        transform: translateX(0px);
+    }  
+}
+p{
+    text-align:justify;
+    text-indent: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#ankara1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#ankara{
+    
+    margin-top: -400px;
+    margin-left: 300px;
+}
+#ankara2{
+    margin-left:300px;
+}
+#ankara3{
+    margin-left:300px;
+    color:rgb(47, 107, 175);
+    text-decoration: underline;
+    text-shadow:1px 1px 2px;
+}
+#BDSD{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#BDSD1{
+    margin-top:-400px;
+    margin-left:300px;
+}
+#BDSD2{
+    margin-left:300px;
+}
+#BDSD3{
+    margin-left:300px;
+    color:red;
+    text-decoration: underline;
+    text-shadow:1px 1px 2px;
+}
+#FVI{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#FVI1{
+    margin-top: -400px;
+    margin-left:300px;
+}
+#FVI2{
+    margin-left:300px;
+}
+#FVI3{
+    margin-left:300px;
+    color:rgb(47, 120, 128);
+    text-decoration: underline;
+    text-shadow:1px 1px 2px;
+}
+.ANA{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ANA1{
+    margin-top: -400px;
+    margin-left:300px;
+}
+.ANA2{
+    margin-left:300px;
+}
+.ANA3{
+    margin-left:300px;
+    color:rgb(225, 78, 10);
+    text-decoration: underline;
+    text-shadow:1px 1px 2px;
+}
+
+.BZÜ{
+    text-align:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.BZÜ1{
+    margin-top: -400px;
+    margin-left:300px;
+}
+.BZÜ2{
+    margin-left:300px;
+}
+.BZÜ3{
+    margin-left:300px;
+    color:rgb(0, 89, 255);
+    text-decoration: underline;
+    text-shadow:1px 1px 2px;
+}
+
+#YKK{
+    color: gray;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left:25px;
+}
+#YKK1{
+    margin-top:-200px;
+    margin-left:350px;
+    padding-right: 15px;
+
+}
+#YKK2{
+    margin-left:350px;
+    padding-right:15px;
+    
+}
+#YKK3{
+    margin-left:10px;
+}
+a:hover{
+    background-color: gray;
+}
+#GO{
+    color:gray;
+    font-size:x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left:25px;
+   }
+#GO1{
+    margin-top:-500px;
+    margin-left:350px;
+    padding-right: 15px;
+}
+#GO2{
+    margin-left:350px;
+    padding-right:15px;
+}
+#GO3{
+    margin-left:10px;
+}
+
+.JS{
+    color:gray;
+    font-size:x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left:25px;
+   }
+.JS1{
+    margin-top:-500px;
+    margin-left:350px;
+    
+    padding-right: 15px;
+}
+.JS2{
+    margin-left:350px;
+    padding-right:15px;
+}
+.JS3{
+    margin-left:10px;
+}
+.MG{
+    color:gray;
+    font-size:x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left:25px;
+   }
+.MG1{
+    margin-top:-500px;
+    margin-left:350px;
+    
+    padding-right: 15px;
+}
+.MG2{
+    margin-left:350px;
+    padding-right:15px;
+}
+.MG3{
+    margin-left:10px;
+}
+#renk{
+    background-color: #cd9b9b;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.alıntı{
+    color:lightblue;
+    border:2px solid gray;
+    border-right-width: 60px;
+    border-left-width: 60px;
+    text-align:center;
+}
+.metin
+{
+    color: gray;
+    font-size:x-large
+}
+   
+#resim1
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width:20%;
+}
+.kategori0
+{
+    position: absolute;
+    right: 0;
+    top:60px;
+}
+.card {
+    height: 600px;
+    width: 600px;
+}
+
+.card-text {
+    font-size: 50px;
+    padding-bottom: 5px;
+    padding-top:5px;
+}
+.n {
+    margin-top: -20px;
+}
