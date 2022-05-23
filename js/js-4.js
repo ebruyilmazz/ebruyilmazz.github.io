@@ -7,7 +7,7 @@ function yazdir(){
     var department="Bilgisayar Mühendisliği - 2";
     
     document.write(baslik + "<br>" + bosluk + "<br>"+ fullName + "<br> "+ address + "<br> " + school + "<br> "+ department + "<br>");
-}
+}//7
 
 
 var kategoriler=new Array();

@@ -31,7 +31,7 @@ AlıntıYaz= function () {
     var rand = Math.floor(Math.random()*alıntı.length);
     document.write(alıntı[rand]);
   }
-  AlıntıYaz();
+  AlıntıYaz();//5
 
   function tarih(){
     var t = new Date();
@@ -72,8 +72,7 @@ function kategori(){
     document.write("<br>"+"1-Büyük Sorulara Kısa Yanıtlar,Stephen Hawking" + "<br>" +" 2-Zamanın Kısa Tarihi, Stephen Hawking" +" <br>"+ "3-Bilimin Büyüsü ,A. M. Celal Şengör" + "<br>" + "4-Aforizmalar, Stephen Hawking" + "<br>"+"<br>")
     document.write(kategoriler[3]);
     document.write("<br>"+"1-İnsan Geleceğini Nasıl Kurar?, İlber Ortaylı" + "<br>" +" 2-Bir Ömür Nasıl Yaşanır?, İlber Ortaylı" +" <br>"+ "3-Var mısın? - Güçlü Bir Yaşam İçin Öneriler, Doğan Cüceloğlu" + "<br>"+"<br>") 
-}
-
+}//6
 
 
 

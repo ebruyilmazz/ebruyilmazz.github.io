@@ -8,13 +8,13 @@ var rasgele=Math.floor(Math.random()*renkler.length);
 
 document.body.style.backgroundColor=renkler[rasgele];
 
-}
+}//1
 
 
 function anasayfa() {
 	alert("Anasayfaya Hoşgeldiniz!");
 }
-anasayfa();
+anasayfa();//2
 
 
 function tarih(){
@@ -26,13 +26,13 @@ function tarih(){
     
     document.write(gun + "-" + ay + "-" + yıl +" " +gun2 );
 }
-tarih();
+tarih();//3
 
 
 function yonlendir1(){
     setTimeout( "window.location.href ='file:///C:/Users/PC/.vscode/202511062/index2.html'", 30*1000 );
 }
-yonlendir1();
+yonlendir1();//4
 
 
 function uyarı1() {
