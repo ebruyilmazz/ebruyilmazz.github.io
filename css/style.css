@@ -256,9 +256,6 @@ a:hover{
 {
     color: gray;
     font-size:x-large;
-    position: absolute;
-    right:0;
-    top:60px;
     
 }
    
@@ -272,7 +269,7 @@ a:hover{
 .kategori0
 {
     position: absolute;
-    right: 0;
+    left: 0;
     top:60px;
 }
 .card {
