@@ -1,4 +1,13 @@
-
+function yazdir(){
+    var baslik="Hakkında";
+    var bosluk="**********"
+    var fullName="Ebru Yılmaz";
+    var school="Ahi Evran Üniversitesi";
+    var address="İstanbul";
+    var department="Bilgisayar Mühendisliği - 2";
+    
+    document.write(baslik + "<br>" + bosluk + "<br>"+ fullName + "<br> "+ address + "<br> " + school + "<br> "+ department + "<br>");
+}//7
 
 
 var kategoriler=new Array();
