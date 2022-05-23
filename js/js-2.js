@@ -31,7 +31,7 @@ AlıntıYaz= function () {
     var rand = Math.floor(Math.random()*alıntı.length);
     document.write(alıntı[rand]);
   }
-  AlıntıYaz();//5
+  AlıntıYaz();
 
   function tarih(){
     var t = new Date();
